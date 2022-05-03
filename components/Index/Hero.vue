@@ -51,12 +51,13 @@ export default {
         items: 1,
         container: '.hero_img',
         gutter: 0,
-        autoplay: false,
+        autoplay: true,
         nav: false,
         controls: false,
         speed: 1500,
         mode: 'gallery',
-        autoplayButtonOutput: 'true'
+        autoplayButtonOutput: false,
+        autoplayButton: false,
       },
     }
   },

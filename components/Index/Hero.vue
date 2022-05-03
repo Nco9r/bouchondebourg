@@ -49,9 +49,7 @@ export default {
         mouseDrag: true,
         loop: true,
         items: 1,
-        nav: false,
         container: '.hero_img',
-        autoplayButtonOutput: true,
         gutter: 0,
         autoplay: true,
         speed: 1500,
@@ -109,7 +107,7 @@ export default {
   left: 0;
   pointer-events: all;
   bottom: 0;
-  height: 888px;
+  height: 890px;
 }
 
 .wrapper_title_hero {
@@ -160,7 +158,7 @@ h1 {
   left: 4px;
   top: 3px;
   text-transform: uppercase;
-  -webkit-text-stroke: .1px var(--white);
+  -webkit-text-stroke: .7px var(--white);
   color: transparent;
 }
 

@@ -120,7 +120,7 @@ export default {}
   font-family: Arapey, sans-serif;
   color: var(--primary);
   font-size: 18px;
-  -webkit-text-stroke: 0.2px var(--primary);
+  -webkit-text-stroke: 1px var(--primary);
 
   margin-bottom: 20px;
   line-height: 24px;

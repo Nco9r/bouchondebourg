@@ -168,7 +168,7 @@ export default {}
   left: 2px;
   top: 2px;
   text-transform: uppercase;
-  -webkit-text-stroke: 0.1px var(--primary);
+  -webkit-text-stroke: 1px var(--primary);
   color: transparent;
 }
 

@@ -51,7 +51,7 @@ export default {
         items: 1,
         container: '.hero_img',
         gutter: 0,
-        autoplay: true,
+        autoplay: false,
         speed: 1500,
         mode:'gallery',
         preventScrollOnTouch: 'auto',
@@ -158,7 +158,7 @@ h1 {
   left: 4px;
   top: 3px;
   text-transform: uppercase;
-  -webkit-text-stroke: .7px var(--white);
+  -webkit-text-stroke: 1px var(--white);
   color: transparent;
 }
 

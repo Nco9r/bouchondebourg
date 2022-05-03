@@ -79,8 +79,8 @@ export default {}
 
 
 .block_right {
-  margin-top: 50px;
-  padding: 100px 20px 20px 20px;
+  margin-top: 30px;
+  padding: 10px 20px 20px 20px;
 }
 
 .wrapper_right h2 {
@@ -104,6 +104,12 @@ export default {}
   text-transform: uppercase;
   -webkit-text-stroke: 0.1px var(--primary);
   color: transparent;
+}
+
+.wrapper_right img:nth-child(1)
+{
+    width: 130px;
+    position: absolute;
 }
 
 .content_right {

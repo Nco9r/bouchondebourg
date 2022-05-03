@@ -11,8 +11,8 @@
             <img src="~assets/img/png/slide_5.jpg" alt="" />
           </vue-tiny-slider>
         </client-only>
-            <!-- <img src="~assets/img/png/slider.jpg" alt="" /> -->
-       
+        <!-- <img src="~assets/img/png/slider.jpg" alt="" /> -->
+
         <div class="bck"></div>
         <div class="wrapper_title_hero">
           <span class="tiret"></span>
@@ -51,10 +51,12 @@ export default {
         items: 1,
         container: '.hero_img',
         gutter: 0,
-
+        autoplay: false,
+        nav: false,
+        controls: false,
         speed: 1500,
-        mode:'gallery',
-  
+        mode: 'gallery',
+        autoplayButtonOutput: 'true'
       },
     }
   },
@@ -75,10 +77,7 @@ export default {
 .hero_img {
   position: relative;
   display: block;
-  height: 800px!important;
-
-
-
+  height: 800px !important;
 }
 
 .hero_img img {
@@ -93,7 +92,7 @@ export default {
     transform: scale(1);
   }
 
-  100%{
+  100% {
     transform: scale(1.1);
   }
 }
@@ -106,7 +105,15 @@ export default {
   left: 0;
   pointer-events: all;
   bottom: 0;
-  height: 890px;
+  height: 800px;
+}
+
+tns-controls {
+  display: none;
+}
+
+tns-outers button .tns-visually-hidden {
+  display: none;
 }
 
 .wrapper_title_hero {
@@ -146,7 +153,7 @@ h1 {
   z-index: 1;
   position: relative;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 3px;
 }
 
 .span_first::after {
@@ -213,10 +220,7 @@ h1 {
   }
 }
 
-
-
 .btn_resa {
-
   z-index: 20;
   pointer-events: all;
   margin-bottom: 20px;

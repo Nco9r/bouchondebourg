@@ -91,7 +91,7 @@ export default {}
   z-index: 1;
   position: relative;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
 }
 
 .wrapper_right h2::after {

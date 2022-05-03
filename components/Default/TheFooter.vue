@@ -157,7 +157,7 @@ export default {}
   color: var(--primary);
   text-transform: uppercase;
   position: relative;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 .wrapper_footer h4::after {

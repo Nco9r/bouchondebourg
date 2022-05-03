@@ -46,16 +46,15 @@ export default {
   data() {
     return {
       tinySliderOptions: {
-        mouseDrag: true,
+        mouseDrag: false,
         loop: true,
         items: 1,
         container: '.hero_img',
         gutter: 0,
-        autoplay: false,
+
         speed: 1500,
         mode:'gallery',
-        preventScrollOnTouch: 'auto',
-        controls: true,
+  
       },
     }
   },

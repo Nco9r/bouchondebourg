@@ -22,7 +22,7 @@ export default {}
 
 <style scoped>
 .box_header_mobile {
-  background-color: var(--primary);
+  background-color: transparent;
   height: 90px;
   position: fixed;
   top: 0;

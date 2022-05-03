@@ -56,7 +56,7 @@ html {
 }
 
 @font-face {
-  font-family: ArapeyRegular;
+  font-family: Arapey;
   src: url('~assets/fonts/Arapey-Regular.ttf');
 }
 

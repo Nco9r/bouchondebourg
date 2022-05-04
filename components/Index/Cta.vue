@@ -35,7 +35,7 @@ export default {}
 }
 
 .team h3 {
-  font-family: Fjalla-Regular, sans-serif;
+  font-family: Fjalla, sans-serif;
   font-size: 42px;
   color: var(--primary);
 }

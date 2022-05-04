@@ -50,17 +50,18 @@ html {
 }
 
 @font-face {
-  font-family: Fjalla-Regular;
+  font-family: Fjalla;
+  font-weight: 700;
   src: url('~assets/fonts/FjallaOne-Regular.ttf');
 }
 
 @font-face {
-  font-family: Arapey-Regular;
+  font-family: Arapey;
   src: url('~assets/fonts/Arapey-Regular.ttf');
 }
 
 @font-face {
-  font-family: Arapey-Italic;
+  font-family: ArapeyItalic;
   src: url('~assets/fonts/Arapey-Italic.ttf');
 }
 

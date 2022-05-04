@@ -65,6 +65,7 @@
             </div>
             <hr />
           </div>
+          <img class="sky" src="~assets/img/svg/sky_r.svg" alt="">
         </div>
       </div>
     </div>
@@ -76,6 +77,8 @@ export default {}
 </script>
 
 <style scoped>
+
+
 .block_right {
   margin-top: 30px;
   padding: 10px 20px 20px 20px;
@@ -145,9 +148,9 @@ export default {}
 }
 
 .djset {
-  width: 90%;
+  width: 85%;
   height: 230px;
-  margin-left: 37px;
+  margin-left: 53px;
   margin-top: -85px;
   padding: 20px;
   position: absolute;
@@ -173,5 +176,10 @@ hr {
   height: 1px;
   background: var(--secondary);
   margin-top: 20px;
+}
+
+.sky {
+    position: absolute;
+    bottom: -200px;
 }
 </style>

@@ -26,11 +26,11 @@
 export default {}
 </script>
 
-<style>
+<style scoped>
 .guinguette {
   background-image: url('~assets/img/png/guinguette.png');
   height: 500px;
-  margin-top: 220px;
+  margin-top: 320px;
   background-position: 50% -20%;
   background-size: cover;
   padding: 40px 20px 20px 20px;

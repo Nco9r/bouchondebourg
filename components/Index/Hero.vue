@@ -259,7 +259,7 @@ h1 {
 
   .mouse {
     position: absolute;
-    top: 900px;
+    top: 80vh;
 
     left: 50%;
     transform: translateX(-50%);

@@ -19,7 +19,6 @@ html {
   font-family: lato, Times, serif, -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-size: 16px;
-  word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
@@ -29,7 +28,7 @@ html {
   background-image: url('~assets/img/png/bck.png');
   background-position: cover;
   background-repeat: repeat;
-  background-size: 30%;
+  background-size: 90%;
 }
 
 *,

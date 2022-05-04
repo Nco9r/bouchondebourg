@@ -24,7 +24,7 @@
           </div>
           <div class="btn_resa">
             <a
-              href="https://reservation.dish.co/landingPage/hydra-ba33c690-a93c-11ec-8799-1321129a6da4"
+              href="https://bookings.howmany.fr/results?rid=37&pid=1001"
               target="_blank"
             >
               <button>Réserver une table</button>
@@ -86,15 +86,15 @@ export default {}
 .wrapper_right h2 {
   color: var(--primary);
   font-family: Fjalla, sans-serif;
-  font-size: 36px;
+  font-size: 42px;
   margin-top: 10px;
   z-index: 1;
   position: relative;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: -1px;
 }
 
-.wrapper_right h2::after {
+/* .wrapper_right h2::after {
   content: 'Une cuisine de vignerons';
   font-family: Fjalla, sans-serif;
   font-size: 36px;
@@ -104,12 +104,11 @@ export default {}
   text-transform: uppercase;
   -webkit-text-stroke: 1px var(--primary);
   color: transparent;
-}
+} */
 
 .wrapper_right img:nth-child(1)
 {
-    width: 130px;
-    position: absolute;
+    width: 60px;
 }
 
 .content_right {
@@ -150,7 +149,7 @@ export default {}
 
 .djset {
   width: 100%;
-  height: 200px;
+  height: 230px;
   margin-top: -5px;
   padding: 20px;
   position: absolute;

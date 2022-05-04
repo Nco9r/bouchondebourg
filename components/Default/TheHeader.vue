@@ -6,7 +6,7 @@
       </div>
       <div class="btn_resa">
         <a
-          href="https://reservation.dish.co/landingPage/hydra-ba33c690-a93c-11ec-8799-1321129a6da4"
+          href="https://bookings.howmany.fr/results?rid=37&pid=1001"
           target="_blank"
         >
           <button>Réserver</button>
@@ -22,7 +22,7 @@ export default {}
 
 <style scoped>
 .box_header_mobile {
-  background-color: transparent;
+  background-color: var(--primary);
   height: 90px;
   position: fixed;
   top: 0;

@@ -157,10 +157,10 @@ export default {}
   color: var(--primary);
   text-transform: uppercase;
   position: relative;
-  letter-spacing: 1px;
+
 }
 
-.wrapper_footer h4::after {
+/* .wrapper_footer h4::after {
   content: 'Le bouchon est ouvert du mardi au samedi';
   font-family: Fjalla, sans-serif;
   font-size: 32px;
@@ -170,7 +170,7 @@ export default {}
   text-transform: uppercase;
   -webkit-text-stroke: 1px var(--primary);
   color: transparent;
-}
+} */
 
 .box_horaire {
   display: flex;

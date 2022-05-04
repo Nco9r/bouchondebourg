@@ -25,7 +25,7 @@
           </h1>
           <div class="btn_resa">
             <a
-              href="https://reservation.dish.co/landingPage/hydra-ba33c690-a93c-11ec-8799-1321129a6da4"
+              href="https://bookings.howmany.fr/results?rid=37&pid=1001"
               target="_blank"
             >
               <button>Réserver une table</button>
@@ -154,10 +154,10 @@ h1 {
   z-index: 1;
   position: relative;
   text-transform: uppercase;
-  letter-spacing: 3px;
+  letter-spacing: 0px;
 }
 
-.span_first::after {
+/* .span_first::after {
   content: 'Restaurant';
   font-family: Fjalla, sans-serif;
   font-size: 62px;
@@ -167,7 +167,7 @@ h1 {
   text-transform: uppercase;
   -webkit-text-stroke: 1px var(--white);
   color: transparent;
-}
+} */
 
 .span_second {
   position: absolute;

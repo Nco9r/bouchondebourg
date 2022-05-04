@@ -76,8 +76,6 @@ export default {}
 </script>
 
 <style scoped>
-
-
 .block_right {
   margin-top: 30px;
   padding: 10px 20px 20px 20px;
@@ -85,7 +83,8 @@ export default {}
 
 .wrapper_right h2 {
   color: var(--primary);
-  font-family: Fjalla, sans-serif;
+  font-family: 'Fjalla One', sans-serif;
+  -webkit-text-stroke: 1px var(--primary);
   font-size: 42px;
   margin-top: 10px;
   z-index: 1;
@@ -106,9 +105,8 @@ export default {}
   color: transparent;
 } */
 
-.wrapper_right img:nth-child(1)
-{
-    width: 60px;
+.wrapper_right img:nth-child(1) {
+  width: 60px;
 }
 
 .content_right {

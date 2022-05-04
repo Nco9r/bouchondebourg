@@ -152,12 +152,12 @@ export default {}
 
 .wrapper_footer h4 {
   margin-top: 60px;
-  font-family: Fjalla, sans-serif;
+  font-family: 'Fjalla One', sans-serif;
+  -webkit-text-stroke: 1px var(--primary);
   font-size: 32px;
   color: var(--primary);
   text-transform: uppercase;
   position: relative;
-
 }
 
 /* .wrapper_footer h4::after {
@@ -242,8 +242,8 @@ hr {
 }
 
 .sociaux img {
-    width: 25px;
-    margin-right: 10px;
-    margin-top: 20px;
+  width: 25px;
+  margin-right: 10px;
+  margin-top: 20px;
 }
 </style>

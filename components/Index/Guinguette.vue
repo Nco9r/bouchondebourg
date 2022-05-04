@@ -25,7 +25,8 @@ export default {}
 
 .block_right h2 {
   color: var(--white);
-  font-family: Fjalla, sans-serif;
+  font-family: "Fjalla One", sans-serif;
+  -webkit-text-stroke: 1px var(--white);
   font-size: 42px;
   margin-top: 30px;
   z-index: 1;

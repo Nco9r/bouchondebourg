@@ -36,7 +36,6 @@ export default {}
 
 .team h3 {
   font-family: "Fjalla One", sans-serif;
-  font-weight: 400;
   -webkit-text-stroke: 1px var(--primary);
   font-size: 42px;
   color: var(--primary);

@@ -148,7 +148,8 @@ h1 {
 
 .span_first {
   color: var(--white);
-  font-family: Fjalla, sans-serif;
+  font-family: "Fjalla One", sans-serif;
+  -webkit-text-stroke: 1px var(--white);
   font-size: 62px;
   margin-top: 30px;
   z-index: 1;
@@ -173,7 +174,8 @@ h1 {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-family: Fjalla, sans-serif;
+  font-family: "Fjalla One", sans-serif;
+  -webkit-text-stroke: 1px var(--secondary);
   font-size: 110px;
   top: 115px;
   color: var(--secondary);

@@ -53,8 +53,13 @@ export default {}
 
 @media screen and (min-width: 1024px) {
   .box_header_mobile {
-    height: 90px;
+    height: 100px;
     padding: 30px;
   }
+
+
+.logo_header img {
+  width: 250px;
+}
 }
 </style>

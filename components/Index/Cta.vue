@@ -61,8 +61,6 @@ export default {}
     font-family: 'Fjalla One', sans-serif;
     -webkit-text-stroke: 1px var(--primary);
     font-size: 52px;
-    width: 800px;
-    margin: auto;
     color: var(--primary);
   }
 
@@ -82,8 +80,21 @@ export default {}
   .team img {
     position: absolute;
     width: 130px;
-    right: -80px;
+    right: -60px;
     top: -80px;
+  }
+
+    .team .box_team h3 {
+    font-family: 'Fjalla One', sans-serif;
+    -webkit-text-stroke: 1px var(--primary);
+    font-size: 62px;
+    color: var(--primary);
+  }
+
+  .box_team {
+    width: 1000px;
+    margin: auto;
+    position: relative;
   }
 }
 </style>

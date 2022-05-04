@@ -157,6 +157,18 @@ export default {}
     padding-top: 70px;
   }
 
+  .guirlande img {
+  width: 120%;
+  overflow: hidden;
+}
+
+.guirlande {
+  position: absolute;
+  right: 0px;
+  overflow: hidden;
+  top: -60px;
+}
+
    .block_right h2 {
     font-size: 62px;
     margin-top: 20px;
@@ -164,6 +176,11 @@ export default {}
 
   .btn_resa {
       margin: 30px 0;
+  }
+
+    .wrapper_guinguette {
+    max-width: 1100px;
+    margin: 50px auto;
   }
 }
 </style>

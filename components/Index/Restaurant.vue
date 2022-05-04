@@ -88,7 +88,7 @@ export default {}
   color: var(--primary);
   font-family: 'Fjalla One', sans-serif;
   -webkit-text-stroke: 1px var(--primary);
-  font-size: 42px;
+  font-size: 36px;
   margin-top: 10px;
   z-index: 1;
   position: relative;
@@ -108,7 +108,7 @@ export default {}
 } */
 
 .wrapper_right img:nth-child(1) {
-  width: 60px;
+  width: 40px;
 }
 
 .content_right {

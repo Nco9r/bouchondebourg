@@ -24,7 +24,7 @@ export default {}
 .team {
   text-align: center;
   margin-top: 50px;
-  padding: 20px 15px;
+  padding: 20px 5px;
   position: relative;
 }
 

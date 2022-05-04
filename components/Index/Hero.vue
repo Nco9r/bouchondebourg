@@ -78,12 +78,12 @@ export default {
 .hero_img {
   position: relative;
   display: block;
-  height: 800px !important;
+  height: 100vh !important;
 }
 
 .hero_img img {
   width: 100%;
-  height: 800px;
+  height: 100vh;
   display: block;
   object-fit: cover;
 }
@@ -106,7 +106,7 @@ export default {
   left: 0;
   pointer-events: all;
   bottom: 0;
-  height: 800px;
+  height: 100vh;
 }
 
 tns-controls {

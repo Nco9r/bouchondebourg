@@ -191,7 +191,7 @@ export default {}
 .item {
   display: flex;
   flex-flow: column;
-  width: 105px;
+  width: 90px;
 }
 
 .day p {

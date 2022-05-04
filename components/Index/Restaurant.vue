@@ -127,6 +127,7 @@ export default {}
 .wrapper_left {
   position: relative;
   margin-top: 80px;
+  
 }
 
 .box_img img:nth-child(1) {
@@ -137,15 +138,17 @@ export default {}
 }
 
 .box_img img:nth-child(2) {
-  width: 100%;
+  width: 85%;
+  margin: 0 20px 0 0;
   height: 400px;
   object-fit: cover;
 }
 
 .djset {
-  width: 100%;
+  width: 90%;
   height: 230px;
-  margin-top: -5px;
+  margin-left: 37px;
+  margin-top: -85px;
   padding: 20px;
   position: absolute;
   background-color: var(--primary);

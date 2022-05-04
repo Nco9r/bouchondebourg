@@ -82,9 +82,11 @@
         </div>
       </div>
       <div class="copyright">
-        <p>contact@lebouchondebourg.com</p>
-        <p>05 57 94 80 25</p>
-        <p>Mentions légales</p>
+        <div class="left">
+          <p>contact@lebouchondebourg.com</p>
+          <p>05 57 94 80 25</p>
+          <p>Mentions légales</p>
+        </div>
         <div class="sociaux">
           <a href="https://www.facebook.com/lebouchondebourg" target="_blank">
             <img src="~assets/img/svg/facebook.svg" alt=""
@@ -115,7 +117,7 @@ export default {}
   padding: 20px;
   border: 3px solid var(--primary);
   height: 500px;
-  margin: 100px 20px 20px 20px;
+  margin: 100px 20px 20px 5px;
   position: relative;
   pointer-events: all;
 }
@@ -235,7 +237,7 @@ hr {
   padding: 10px 20px 50px 20px;
 }
 
-.copyright p {
+.copyright .left p {
   font-family: Fjalla, sans-serif;
   color: var(--primary);
   margin-bottom: 10px;
@@ -245,5 +247,75 @@ hr {
   width: 25px;
   margin-right: 10px;
   margin-top: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper_footer {
+    padding: 20px;
+    border: 3px solid var(--primary);
+    height: 460px;
+    margin: 100px 70px 20px 55px;
+    position: relative;
+    pointer-events: all;
+  }
+  .wrapper_footer h4 {
+    text-align: center;
+    font-size: 42px;
+  }
+
+  .wrapper_footer img {
+    position: absolute;
+    right: -10px;
+    top: -140px;
+    width: 220px;
+  }
+
+  .box_horaire {
+    margin: auto;
+    width: 900px;
+    justify-content: space-around;
+  }
+
+  .item {
+    display: flex;
+    flex-flow: column;
+    width: 110px;
+  }
+
+  .day p {
+    font-family: Fjalla, sans-serif;
+    color: var(--secondary);
+    font-size: 18px;
+  }
+
+  .horaire p {
+    font-size: 18px;
+  }
+  hr {
+    width: 300px;
+    margin: 30px auto;
+  }
+
+  .copyright {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+    align-items: center;
+
+  }
+
+  .copyright .left {
+      display: flex;
+  }
+
+  .copyright .left p {
+    margin-right: 40px;
+  }
+
+  .sociaux img {
+    width: 25px;
+    margin-right: 10px;
+    margin-top: 0px;
+  }
 }
 </style>

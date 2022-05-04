@@ -81,4 +81,10 @@ button:hover {
   background-color: var(--primary);
   color: var(--secondary);
 }
+
+@media screen and (min-width: 1024px) {
+  html {
+    background-size: 30%;
+  }
+}
 </style>

@@ -65,7 +65,7 @@
             </div>
             <hr />
           </div>
-          <img class="sky" src="~assets/img/svg/sky_r.svg" alt="">
+          <img class="sky" src="~assets/img/svg/sky_r.svg" alt="" />
         </div>
       </div>
     </div>
@@ -77,8 +77,6 @@ export default {}
 </script>
 
 <style scoped>
-
-
 .block_right {
   margin-top: 30px;
   padding: 10px 20px 20px 20px;
@@ -95,17 +93,6 @@ export default {}
   text-transform: uppercase;
 }
 
-/* .wrapper_right h2::after {
-  content: 'Une cuisine de vignerons';
-  font-family: Fjalla, sans-serif;
-  font-size: 36px;
-  position: absolute;
-  left: 2.5px;
-  top: 1px;
-  text-transform: uppercase;
-  -webkit-text-stroke: 1px var(--primary);
-  color: transparent;
-} */
 
 .wrapper_right img:nth-child(1) {
   width: 40px;
@@ -130,7 +117,6 @@ export default {}
 .wrapper_left {
   position: relative;
   margin-top: 80px;
-  
 }
 
 .box_img img:nth-child(1) {
@@ -144,6 +130,7 @@ export default {}
   width: 85%;
   margin: 0 20px 0 0;
   height: 400px;
+  position: relative;
   object-fit: cover;
 }
 
@@ -179,7 +166,65 @@ hr {
 }
 
 .sky {
+  position: absolute;
+  bottom: -200px;
+}
+
+@media screen and (min-width: 1024px) {
+  .wrapper_restaurant {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: space-around;
+    margin-top: 120px;
+  }
+
+  .block_left {
+    width: 45%;
+    margin-top: 40px;
+  }
+
+
+  .box_img img:nth-child(2)::after {
+    content: '';
+    border: 20px solid var(--secondary);
+    position: absolute;
+    top: 2px;
+    left: 2px;
+  }
+
+  .block_right {
+    width: 45%;
+  }
+
+  .wrapper_right h2 {
+    font-size: 52px;
+
+  }
+
+  .djset {
+    width: 350px ;
+    height: 230px;
+    margin-left: 93px;
+    margin-top: -85px;
+    padding: 20px;
+    position: absolute;
+    background-color: var(--primary);
+  }
+
+  .sky {
     position: absolute;
     bottom: -200px;
+    left: 35px;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+.block_left {
+    width: 48%;
+}
+
+.block_right {
+    width: 45%;
+}
 }
 </style>

@@ -44,4 +44,33 @@ export default {}
 .btn_resa {
     margin-top: 30px;
 }
+
+@media screen and (min-width: 1024px) {
+
+    .team {
+        margin-top: 100px;
+    }
+    .team h3 {
+  font-family: "Fjalla One", sans-serif;
+  -webkit-text-stroke: 1px var(--primary);
+  font-size: 52px;
+  width: 800px;
+  margin: auto;
+  color: var(--primary);
+}
+
+.team img {
+    position: absolute;
+    right: 80px;
+    top: -30px;
+}
+}
+
+@media screen and (min-width: 1260px) {
+    .team img {
+    position: absolute;
+    right: 190px;
+    top: -30px;
+}
+}
 </style>

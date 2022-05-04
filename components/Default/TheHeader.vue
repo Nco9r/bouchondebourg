@@ -45,9 +45,16 @@ export default {}
   width: 100%;
 }
 .btn_resa {
-  margin-top: -7px;
+  margin-top: -10px;
 }
 .btn_resa a {
   text-decoration: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .box_header_mobile {
+    height: 120px;
+    padding: 30px;
+  }
 }
 </style>

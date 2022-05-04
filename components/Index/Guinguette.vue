@@ -1,8 +1,8 @@
 <template>
   <section class="guinguette">
-      <div class="guirlande">
-          <img src="~assets/img/svg/guirlande.svg" alt="">
-      </div>
+    <div class="guirlande">
+      <img src="~assets/img/svg/guirlande.svg" alt="" />
+    </div>
     <div class="wrapper_guinguette">
       <div class="block_right">
         <h2>La guinguette des vignerons</h2>
@@ -26,7 +26,7 @@
             <img src="~assets/img/svg/petanque.svg" alt="" />
             <p>Terrains de pétanques</p>
           </div>
-            <div class="item">
+          <div class="item">
             <img src="~assets/img/svg/vue.svg" alt="" />
             <p>Point de vue</p>
           </div>
@@ -47,7 +47,7 @@ export default {}
   margin-top: 270px;
   background-position: 50% -20%;
   background-size: cover;
-    overflow: hidden;
+  overflow: hidden;
 
   position: relative;
   padding: 40px 20px 20px 20px;
@@ -55,15 +55,14 @@ export default {}
 }
 
 .guirlande {
-    position: absolute;
-    right: -20px;
-    overflow: hidden;
-    top: -46px;
+  position: absolute;
+  right: -20px;
+  overflow: hidden;
+  top: -46px;
 }
 .guirlande img {
-    width: 100%;
-    overflow: hidden;
-
+  width: 100%;
+  overflow: hidden;
 }
 
 .block_right h2 {
@@ -99,6 +98,63 @@ export default {}
 }
 
 .item {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 1024px) {
+  .guinguette {
+    text-align: left;
+    margin-top: 80px;
+    padding-bottom: 100px;
+    padding-top: 70px;
+  }
+  .wrapper_guinguette {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .block_right {
+    width: 45%;
+  }
+
+  .block_right h2 {
+    font-size: 52px;
+    margin-top: 20px;
+  }
+
+  .block_left {
+    width: 45%;
+  }
+
+  .item_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .item {
+    text-align: center;
+  }
+
+  .block_right p {
+    padding: 0 0px;
+    font-size: 22px;
+    width: 450px;
+  }
+
+  .item img {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media screen and (min-width: 1260px) {
+  .guinguette {
+    text-align: left;
+    margin-top: 190px;
+    padding-bottom: 100px;
+    padding-top: 70px;
+  }
 }
 </style>

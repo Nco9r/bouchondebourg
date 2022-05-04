@@ -226,4 +226,51 @@ h1 {
   pointer-events: all;
   margin-bottom: 20px;
 }
+
+@media screen and (min-width: 1024px) {
+  .hero_img {
+    height: 1000px !important;
+  }
+
+  .hero_img img {
+    height: 1000px;
+  }
+  .wrapper_title_hero {
+
+  top: 280px;
+ 
+}
+
+  .bck {
+    height: 1000px;
+  }
+
+  .span_first {
+    font-size: 102px;
+  }
+
+  .span_second {
+    font-size: 180px;
+    top: 115px;
+  }
+
+  .span_three {
+    font-size: 102px;
+
+    top: 210px;
+  }
+
+  .btn_resa {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .mouse {
+  position: absolute;
+  top: 900px;
+
+  left: 50%;
+  transform: translateX(-50%);
+}
+}
 </style>

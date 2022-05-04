@@ -50,17 +50,17 @@ html {
 }
 
 @font-face {
-  font-family: Fjalla;
+  font-family: Fjalla-Regular;
   src: url('~assets/fonts/FjallaOne-Regular.ttf');
 }
 
 @font-face {
-  font-family: Arapey;
+  font-family: Arapey-Regular;
   src: url('~assets/fonts/Arapey-Regular.ttf');
 }
 
 @font-face {
-  font-family: ArapeyItalic;
+  font-family: Arapey-Italic;
   src: url('~assets/fonts/Arapey-Italic.ttf');
 }
 
@@ -71,5 +71,14 @@ button {
   font-family: 'Fjalla', sans-serif;
   font-size: 16px;
   color: var(--white);
+  cursor: pointer;
+  transition: all .3s;
+}
+
+button:hover {
+  background-color: var(--primary);
+  color: var(--secondary);
+
+ 
 }
 </style>

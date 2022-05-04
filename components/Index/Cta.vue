@@ -4,7 +4,7 @@
       <img src="~assets/img/svg/sky.svg" alt="" />
       <h3>
         Toute l’équipe du Bouchon vous attend avec impatience pour partager avec
-        vous ces bons moments.
+        vous des bons moments.
       </h3>
       <div class="btn_resa">
         <a

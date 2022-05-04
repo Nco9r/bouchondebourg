@@ -45,7 +45,7 @@ export default {}
   background-image: url('~assets/img/png/guinguette.png');
 
   margin-top: 270px;
-  background-position: 50% -20%;
+  background-position: 50% -30%;
   background-size: cover;
   overflow: hidden;
 
@@ -164,7 +164,7 @@ export default {}
 
 .guirlande {
   position: absolute;
-  right: -15px;
+  right: -10px;
   overflow: hidden;
   top: -70px;
 }

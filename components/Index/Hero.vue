@@ -150,7 +150,7 @@ h1 {
   color: var(--white);
   font-family: 'Fjalla One', sans-serif;
   -webkit-text-stroke: 1px var(--white);
-  font-size: 62px;
+  font-size: 52px;
   margin-top: 30px;
   z-index: 1;
   position: relative;
@@ -189,7 +189,7 @@ h1 {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 180px;
+  top: 170px;
 }
 
 .mouse {
@@ -226,7 +226,8 @@ h1 {
 .btn_resa {
   z-index: 20;
   pointer-events: all;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 1024px) {

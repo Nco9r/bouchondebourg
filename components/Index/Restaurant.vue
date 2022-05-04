@@ -90,7 +90,6 @@ export default {}
   z-index: 1;
   position: relative;
   text-transform: uppercase;
-  letter-spacing: -1px;
 }
 
 /* .wrapper_right h2::after {
@@ -116,11 +115,9 @@ export default {}
 .content_right p {
   font-family: Arapey, sans-serif;
   color: var(--primary);
-  font-size: 18px;
-  -webkit-text-stroke: 0.2px var(--primary);
-
+  font-size: 20px;
   margin-bottom: 20px;
-  line-height: 24px;
+  line-height: 28px;
 }
 
 .btn_resa button {

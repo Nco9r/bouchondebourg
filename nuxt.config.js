@@ -1,19 +1,27 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'lebouchondebourg',
+    title: "Restaurant d'appellation Côtes de Bourg | Le Bouchon de Bourg ",
     htmlAttrs: {
       lang: 'en',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
+      {
+        hid: 'description',
+        name: 'description',
+        content:
+          'Restaurant à la cuisine généreuse, authentique et de partage. L’expression de nos terroirs, d’hommes passionnés et de leur savoir-faire. Profitez de votre passage chez nous pour découvrir l’histoire du vignoble des Côtes de Bourg et de tous ses vignerons.',
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-      { rel: 'stylesheet', href: "https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" },
+      {
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap',
+      },
     ],
   },
 

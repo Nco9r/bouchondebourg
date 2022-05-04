@@ -73,13 +73,12 @@ button {
   font-size: 16px;
   color: var(--white);
   cursor: pointer;
-  transition: all .3s;
+  outline: none;
+  transition: all 0.3s;
 }
 
 button:hover {
   background-color: var(--primary);
   color: var(--secondary);
-
- 
 }
 </style>

@@ -44,7 +44,9 @@ export default {}
 .logo_header img {
   width: 100%;
 }
-
+.btn_resa {
+  margin-top: -7px;
+}
 .btn_resa a {
   text-decoration: none;
 }

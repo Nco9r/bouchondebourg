@@ -158,15 +158,15 @@ export default {}
   }
 
   .guirlande img {
-  width: 120%;
+  width: 600px;
   overflow: hidden;
 }
 
 .guirlande {
   position: absolute;
-  right: 0px;
+  right: -15px;
   overflow: hidden;
-  top: -60px;
+  top: -70px;
 }
 
    .block_right h2 {
@@ -193,15 +193,15 @@ export default {}
   }
 
   .guirlande img {
-  width: 120%;
+  width: 700px;
   overflow: hidden;
 }
 
 .guirlande {
   position: absolute;
-  right: 0px;
+  right: -20px;
   overflow: hidden;
-  top: -60px;
+  top: -80px;
 }
 
    .block_right h2 {

@@ -86,5 +86,17 @@ button:hover {
   html {
     background-size: 30%;
   }
+
+  button {
+  border: none;
+  background-color: var(--secondary);
+  padding: 12px 18px;
+  font-family: 'Fjalla', sans-serif;
+  font-size: 20px;
+  color: var(--white);
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s;
+}
 }
 </style>

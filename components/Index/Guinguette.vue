@@ -149,6 +149,41 @@ export default {}
   }
 }
 
+@media screen and (min-width: 1150px) {
+  .guinguette {
+    text-align: left;
+    margin-top: 190px;
+    padding-bottom: 100px;
+    padding-top: 70px;
+  }
+
+  .guirlande img {
+  width: 120%;
+  overflow: hidden;
+}
+
+.guirlande {
+  position: absolute;
+  right: 0px;
+  overflow: hidden;
+  top: -60px;
+}
+
+   .block_right h2 {
+    font-size: 62px;
+    margin-top: 20px;
+  }
+
+  .btn_resa {
+      margin: 30px 0;
+  }
+
+    .wrapper_guinguette {
+    max-width: 1000px;
+    margin: 50px auto;
+  }
+}
+
 @media screen and (min-width: 1350px) {
   .guinguette {
     text-align: left;

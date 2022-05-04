@@ -266,6 +266,43 @@ h1 {
   }
 }
 
+@media screen and (min-width: 1150px) {
+  .wrapper_title_hero {
+    top: 20vh;
+  }
+
+  .bck {
+  }
+
+  .span_first {
+    font-size: 102px;
+  }
+
+  .span_second {
+    font-size: 190px;
+    top: 110px;
+  }
+
+  .span_three {
+    font-size: 102px;
+
+    top: 210px;
+  }
+
+  .btn_resa {
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .mouse {
+    position: absolute;
+    top: 90vh;
+
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
 @media screen and (min-width: 1350px) {
   .wrapper_title_hero {
     top: 25vh;

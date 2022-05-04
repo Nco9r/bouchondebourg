@@ -149,12 +149,21 @@ export default {}
   }
 }
 
-@media screen and (min-width: 1260px) {
+@media screen and (min-width: 1350px) {
   .guinguette {
     text-align: left;
     margin-top: 190px;
     padding-bottom: 100px;
     padding-top: 70px;
+  }
+
+   .block_right h2 {
+    font-size: 62px;
+    margin-top: 20px;
+  }
+
+  .btn_resa {
+      margin: 30px 0;
   }
 }
 </style>

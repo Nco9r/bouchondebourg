@@ -41,8 +41,8 @@ export default {
   methods: {
     seveurChecked() {
       setTimeout(() => {
-        this.loading = false;
-      }, 2000);
+        this.loading = false
+      }, 2000)
     },
   },
 }
@@ -129,5 +129,30 @@ export default {
 
 .load_leave-leave-to /* .list-leave-active below version 2.1.8 */ {
   opacity: 0;
+}
+
+@media screen and (min-width: 1024px) {
+  .vignes {
+    position: absolute;
+    top: -10px;
+    width: 230px;
+    left: 0;
+  }
+
+  .bottles {
+    position: absolute;
+    bottom: 0;
+    width: 230px;
+    right: 0;
+  }
+
+  .load img:nth-child(1) {
+    width: 440px;
+  }
+
+  .load img:nth-child(5) {
+    width: 200px;
+    margin-top: 10px;
+  }
 }
 </style>

@@ -194,7 +194,7 @@ h1 {
 
 .mouse {
   position: absolute;
-  top: 600px;
+  top: 90vh;
 
   left: 50%;
   transform: translateX(-50%);
@@ -238,12 +238,49 @@ h1 {
   }
 
   .span_first {
+    font-size: 72px;
+  }
+
+  .span_second {
+    font-size: 130px;
+    top: 115px;
+  }
+
+  .span_three {
+    font-size: 72px;
+
+    top: 190px;
+  }
+
+  .btn_resa {
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+
+  .mouse {
+    position: absolute;
+    top: 90vh;
+
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+@media screen and (min-width: 1350px) {
+  .wrapper_title_hero {
+    top: 20vh;
+  }
+
+  .bck {
+  }
+
+  .span_first {
     font-size: 102px;
   }
 
   .span_second {
-    font-size: 180px;
-    top: 115px;
+    font-size: 190px;
+    top: 110px;
   }
 
   .span_three {
@@ -259,7 +296,7 @@ h1 {
 
   .mouse {
     position: absolute;
-    top: 80vh;
+    top: 90vh;
 
     left: 50%;
     transform: translateX(-50%);

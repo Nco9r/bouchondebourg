@@ -183,6 +183,15 @@ hr {
     margin-top: 40px;
   }
 
+  .content_right p {
+  font-family: Arapey, sans-serif;
+  color: var(--primary);
+  font-size: 22px;
+  margin-bottom: 20px;
+  line-height: 32px;
+}
+
+
 
   .box_img img:nth-child(2)::after {
     content: '';
@@ -218,7 +227,7 @@ hr {
   }
 }
 
-@media screen and (min-width: 1260px) {
+@media screen and (min-width: 1350px) {
 .block_left {
     width: 48%;
 }
@@ -226,5 +235,35 @@ hr {
 .block_right {
     width: 45%;
 }
+
+ .wrapper_right h2 {
+    font-size: 62px;
+
+  }
+
+  .box_img img:nth-child(2) {
+  width: 85%;
+  margin: 0 20px 0 0;
+  height: 500px;
+  position: relative;
+  object-fit: cover;
+}
+
+  .djset {
+    width: 350px ;
+    height: 230px;
+    margin-left: 173px;
+    margin-top: -85px;
+    padding: 20px;
+    position: absolute;
+    background-color: var(--primary);
+  }
+
+  .sky {
+    position: absolute;
+    bottom: -220px;
+    left: 85px;
+    width: 130px;
+  }
 }
 </style>

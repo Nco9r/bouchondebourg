@@ -301,11 +301,10 @@ hr {
     margin-top: 60px;
     justify-content: space-between;
     align-items: center;
-
   }
 
   .copyright .left {
-      display: flex;
+    display: flex;
   }
 
   .copyright .left p {
@@ -316,6 +315,17 @@ hr {
     width: 25px;
     margin-right: 10px;
     margin-top: 0px;
+  }
+}
+
+@media screen and (min-width: 1360px) {
+  .wrapper_footer {
+    padding: 20px;
+    border: 3px solid var(--primary);
+    height: 460px;
+    margin: 100px 170px 20px 155px;
+    position: relative;
+    pointer-events: all;
   }
 }
 </style>

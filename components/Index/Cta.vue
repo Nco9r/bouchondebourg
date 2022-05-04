@@ -1,17 +1,19 @@
 <template>
   <section class="team">
-      <img src="~assets/img/svg/sky.svg" alt="">
-    <h3>
-      Toute l’équipe du Bouchon vous attend avec impatience pour partager avec
-      vous ces bons moments.
-    </h3>
-    <div class="btn_resa">
-      <a
-        href="https://bookings.howmany.fr/results?rid=37&pid=1001"
-        target="_blank"
-      >
-        <button>Réserver une table</button>
-      </a>
+    <div class="box_team">
+      <img src="~assets/img/svg/sky.svg" alt="" />
+      <h3>
+        Toute l’équipe du Bouchon vous attend avec impatience pour partager avec
+        vous ces bons moments.
+      </h3>
+      <div class="btn_resa">
+        <a
+          href="https://bookings.howmany.fr/results?rid=37&pid=1001"
+          target="_blank"
+        >
+          <button>Réserver une table</button>
+        </a>
+      </div>
     </div>
   </section>
 </template>
@@ -29,48 +31,59 @@ export default {}
 }
 
 .team img {
-    position: absolute;
-    right: 10px;
-    top: -30px;
+  position: absolute;
+  right: 5px;
+  top: -20px;
 }
 
-.team h3 {
-  font-family: "Fjalla One", sans-serif;
+.team .box_team h3 {
+  font-family: 'Fjalla One', sans-serif;
   -webkit-text-stroke: 1px var(--primary);
   font-size: 40px;
   color: var(--primary);
 }
 
 .btn_resa {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 @media screen and (min-width: 1024px) {
+  .team {
+    margin-top: 100px;
+  }
+
+  .box_team {
+    width: 800px;
+    margin: auto;
+    position: relative;
+  }
+  .team .box_team h3 {
+    font-family: 'Fjalla One', sans-serif;
+    -webkit-text-stroke: 1px var(--primary);
+    font-size: 52px;
+    width: 800px;
+    margin: auto;
+    color: var(--primary);
+  }
+
+  .team img {
+    position: absolute;
+    right: -60px;
+    top: -70px;
+    width: 110px;
+  }
+}
+
+@media screen and (min-width: 1350px) {
 
     .team {
-        margin-top: 100px;
+        margin-top: 150px;
     }
-    .team h3 {
-  font-family: "Fjalla One", sans-serif;
-  -webkit-text-stroke: 1px var(--primary);
-  font-size: 52px;
-  width: 800px;
-  margin: auto;
-  color: var(--primary);
-}
-
-.team img {
+  .team img {
     position: absolute;
-    right: 80px;
-    top: -30px;
-}
-}
-
-@media screen and (min-width: 1260px) {
-    .team img {
-    position: absolute;
-    right: 190px;
-    top: -30px;
-}
+    width: 130px;
+    right: -80px;
+    top: -80px;
+  }
 }
 </style>

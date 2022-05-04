@@ -231,7 +231,7 @@ h1 {
 
 @media screen and (min-width: 1024px) {
   .wrapper_title_hero {
-    top: 280px;
+    top: 20vh;
   }
 
   .bck {

@@ -323,7 +323,7 @@ hr {
     padding: 20px;
     border: 3px solid var(--primary);
     height: 460px;
-    margin: 100px 170px 20px 155px;
+    margin: 100px 270px 20px 255px;
     position: relative;
     pointer-events: all;
   }

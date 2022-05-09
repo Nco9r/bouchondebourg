@@ -22,6 +22,7 @@
             <span class="span_second">&</span> <br /><span class="span_three"
               >Bar à vin</span
             >
+            <span class="span_none">Côtes de Bourg</span> <br />
           </h1>
           <div class="btn_resa">
             <a
@@ -156,6 +157,10 @@ h1 {
   position: relative;
   text-transform: uppercase;
   letter-spacing: 0px;
+}
+
+.span_none {
+  display: none;
 }
 
 /* .span_first::after {

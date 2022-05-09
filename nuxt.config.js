@@ -12,7 +12,13 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Restaurant à la cuisine généreuse, authentique et de partage. L’expression de nos terroirs, d’hommes passionnés et de leur savoir-faire. Profitez de votre passage chez nous pour découvrir l’histoire du vignoble des Côtes de Bourg et de tous ses vignerons.',
+          "Restaurant d'appellation Côtes de Bourg à la cuisine généreuse, authentique et de partage. L’expression de nos terroirs, d’hommes passionnés et de leur savoir-faire. Profitez de votre passage chez nous pour découvrir l’histoire du vignoble des Côtes de Bourg et de tous ses vignerons.",
+      },
+      {
+        hid: 'keywords',
+        name: 'keywords',
+        content:
+          'Restaurant, Restaurant côtes de bourg, bar à vin, bar à vin côtes de bourg, restaurant bourg, bar à vin bourg, guinguette côtes de bourg, cuisine, vignerons, guinguette',
       },
       { name: 'format-detection', content: 'telephone=no' },
     ],

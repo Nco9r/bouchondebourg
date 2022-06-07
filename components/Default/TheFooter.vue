@@ -70,6 +70,15 @@
         </div>
         <hr />
         <div class="adresse">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2819.23450025677!2d-0.5552370999999999!3d45.040462999999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48002badfe7e9d7f%3A0xa02dbdfe9f08c063!2sRestaurant%20Le%20Bouchon!5e0!3m2!1sfr!2sfr!4v1654604477089!5m2!1sfr!2sfr"
+            width="95%"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
           <p>1 Place de l'Éperon, 33710 BOURG</p>
           <div class="btn_resa">
             <a
@@ -116,7 +125,7 @@ export default {}
 .wrapper_footer {
   padding: 20px;
   border: 3px solid var(--primary);
-  height: 500px;
+
   margin: 100px 20px 20px 5px;
   position: relative;
   pointer-events: all;
@@ -132,6 +141,10 @@ export default {}
   border: 3px solid var(--secondary);
   background-color: transparent;
   pointer-events: all;
+}
+
+.adresse iframe {
+  margin-bottom: 30px;
 }
 
 /* .wrapper_footer::after {
@@ -253,7 +266,6 @@ hr {
   .wrapper_footer {
     padding: 20px;
     border: 3px solid var(--primary);
-    height: 460px;
     margin: 100px 70px 20px 55px;
     position: relative;
     pointer-events: all;
@@ -322,7 +334,7 @@ hr {
   .wrapper_footer {
     padding: 20px;
     border: 3px solid var(--primary);
-    height: 460px;
+
     margin: 100px 270px 20px 255px;
     position: relative;
     pointer-events: all;

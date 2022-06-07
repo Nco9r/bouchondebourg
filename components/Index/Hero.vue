@@ -4,10 +4,12 @@
       <div class="hero_img">
         <client-only>
           <vue-tiny-slider v-bind="tinySliderOptions" ref="tinySlider">
-            <img src="~assets/img/png/slider.jpg" alt="" />
+            <img src="~assets/img/png/hero_new.jpg" alt="" />
+            <img src="~assets/img/png/hero_2.jpg" alt="" />
+            <img src="~assets/img/png/hero_3.jpg" alt="" />
             <img src="~assets/img/png/slide_2.jpg" alt="" />
             <img src="~assets/img/png/slide_3.jpg" alt="" />
-            <img src="~assets/img/png/slider_4.jpg" alt="" />
+
             <img src="~assets/img/png/slide_5.jpg" alt="" />
           </vue-tiny-slider>
         </client-only>
@@ -16,7 +18,7 @@
         <div class="bck"></div>
         <div class="wrapper_title_hero">
           <span class="tiret"></span>
-          <p class="construction">Site web en construction</p>
+          <p class="construction"></p>
           <h1>
             <span class="span_first">Restaurant</span> <br />
             <span class="span_second">&</span> <br /><span class="span_three"

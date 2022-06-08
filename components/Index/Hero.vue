@@ -27,11 +27,9 @@
             <span class="span_none">Côtes de Bourg</span> <br />
           </h1>
           <div class="btn_resa">
-            <a
-              href="https://bookings.howmany.fr/results?rid=37&pid=1001"
-              target="_blank"
-            >
-              <button>Réserver une table</button>
+            <a href="/carte_bouchon.pdf" target="_blank">
+              >
+              <button>Voir la carte</button>
             </a>
           </div>
           <span class="tiret"></span>
@@ -196,7 +194,7 @@ h1 {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  top: 170px;
+  top: 150px;
 }
 
 .mouse {
@@ -234,7 +232,7 @@ h1 {
   z-index: 20;
   pointer-events: all;
   margin-bottom: 30px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 @media screen and (min-width: 1024px) {

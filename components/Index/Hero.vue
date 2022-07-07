@@ -149,8 +149,7 @@ h1 {
 
 .span_first {
   color: var(--white);
-  font-family: 'Fjalla One', sans-serif;
-  -webkit-text-stroke: 1px var(--white);
+    font-family: Fjalla, sans-serif;
   font-size: 52px;
   margin-top: 30px;
   z-index: 1;

@@ -38,7 +38,6 @@ export default {}
 
 .team .box_team h3 {
   font-family: 'Fjalla One', sans-serif;
-  -webkit-text-stroke: 1px var(--primary);
   font-size: 40px;
   color: var(--primary);
 }

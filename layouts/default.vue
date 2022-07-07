@@ -51,8 +51,9 @@ html {
 
 @font-face {
   font-family: Fjalla;
-  font-weight: 500;
-  src: url('~assets/fonts/FjallaOne-Regular.ttf');
+  font-weight: 400;
+  font-style: normal;
+  src: url('~assets/fonts/FjallaOne-Regular.ttf') format('woff');
 }
 
 @font-face {

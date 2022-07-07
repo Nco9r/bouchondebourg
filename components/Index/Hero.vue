@@ -28,7 +28,7 @@
           </h1>
           <div class="btn_resa">
             <a href="/carte_bouchon.pdf" target="_blank">
-              >
+              
               <button>Voir la carte</button>
             </a>
           </div>

@@ -5,20 +5,45 @@
     </div>
     <div class="wrapper_guinguette">
       <div class="block_right">
+        <div class="ouverture">
+          <p>Ouverture prochainement</p>
+        </div>
         <h2>La guinguette des vignerons</h2>
         <p>
-          Pour fêter l’arrivée de l’été, nous vous proposerons aussi notre
-          guinguette et ses terrains de pétanques pour vous détendre avec
-          quelques tapas en admirant la vue.
+          Ce nouvel établissement va ouvrir ses portes pour le mois de août 2022
+          ! Terrains de pétanques, mölkky, palets breton : de nombreux jeux
+          seront présents pour vous divertir autour d'un verre et quelques
+          tapas...
         </p>
-        <div class="btn_resa">
+        <p>
+          Ce n'est pas tout, la Guinguette des Vignerons vous proposera des
+          animations musicales comme des concerts, DJ Set, artiste
+          indépendant... Le petit (gros) + ? Une vue panoramique à vous couper
+          le souffle ! Vous l'aurez compris, c'est un nouveau spot à découvrir. À
+          très vite !
+        </p>
+        <div class="sociaux">
+          <a
+            href="https://www.facebook.com/laguinguettedesvignerons"
+            target="_blank"
+          >
+            <img src="~assets/img/svg/facebook.svg" alt=""
+          /></a>
+          <a
+            href="https://www.instagram.com/laguinguettedesvignerons/?hl=fr"
+            target="_blank"
+          >
+            <img src="~assets/img/svg/instagram.svg" alt=""
+          /></a>
+        </div>
+        <!-- <div class="btn_resa">
           <a
             href="https://bookings.howmany.fr/results?rid=37&pid=1001"
             target="_blank"
           >
             <button>Réserver une table</button>
           </a>
-        </div>
+        </div> -->
       </div>
       <div class="block_left">
         <div class="item_box">
@@ -54,6 +79,24 @@ export default {}
   text-align: center;
 }
 
+.ouverture {
+  color: #b98f65;
+  font-size: 30px;
+  margin-bottom: -20px;
+}
+
+.ouverture p {
+  color: #b98f65 !important;
+  margin-top: 100px !important;
+}
+.sociaux {
+  margin-top: 20px;
+}
+
+.sociaux a {
+  margin-right: 15px;
+}
+
 .guirlande {
   position: absolute;
   right: -20px;
@@ -66,11 +109,10 @@ export default {}
 }
 
 .block_right h2 {
-  color: var(--white);
+  color: #faeed4;
   font-family: 'Fjalla One', sans-serif;
-  -webkit-text-stroke: 1px var(--white);
   font-size: 42px;
-  margin-top: 80px;
+  margin-top: 10px;
   z-index: 1;
   position: relative;
   text-transform: uppercase;
@@ -79,7 +121,7 @@ export default {}
 
 .block_right p {
   font-family: Arapey, sans-serif;
-  color: var(--white);
+  color: #faeed4;
   font-size: 20px;
   margin-top: 20px;
   margin-bottom: 20px;
@@ -158,27 +200,27 @@ export default {}
   }
 
   .guirlande img {
-  width: 600px;
-  overflow: hidden;
-}
+    width: 600px;
+    overflow: hidden;
+  }
 
-.guirlande {
-  position: absolute;
-  right: -10px;
-  overflow: hidden;
-  top: -70px;
-}
+  .guirlande {
+    position: absolute;
+    right: -10px;
+    overflow: hidden;
+    top: -70px;
+  }
 
-   .block_right h2 {
+  .block_right h2 {
     font-size: 62px;
     margin-top: 20px;
   }
 
   .btn_resa {
-      margin: 30px 0;
+    margin: 30px 0;
   }
 
-    .wrapper_guinguette {
+  .wrapper_guinguette {
     max-width: 1000px;
     margin: 50px auto;
   }
@@ -193,27 +235,27 @@ export default {}
   }
 
   .guirlande img {
-  width: 700px;
-  overflow: hidden;
-}
+    width: 700px;
+    overflow: hidden;
+  }
 
-.guirlande {
-  position: absolute;
-  right: -20px;
-  overflow: hidden;
-  top: -80px;
-}
+  .guirlande {
+    position: absolute;
+    right: -20px;
+    overflow: hidden;
+    top: -80px;
+  }
 
-   .block_right h2 {
+  .block_right h2 {
     font-size: 62px;
     margin-top: 20px;
   }
 
   .btn_resa {
-      margin: 30px 0;
+    margin: 30px 0;
   }
 
-    .wrapper_guinguette {
+  .wrapper_guinguette {
     max-width: 1100px;
     margin: 50px auto;
   }

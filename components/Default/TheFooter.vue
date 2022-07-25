@@ -4,7 +4,8 @@
       <div class="wrapper_footer">
         <div class="border"></div>
         <img src="~assets/img/svg/vignes.svg" alt="" />
-        <h4>Le bouchon est ouvert du mardi au samedi</h4>
+        <!-- <h4>Le bouchon est ouvert du mardi au samedi</h4> -->
+        <h4>Le bouchon est fermé temporairement</h4>
         <div class="box_horaire">
           <div class="box_item">
             <div class="item">
@@ -20,7 +21,8 @@
                 <p>Mardi</p>
               </div>
               <div class="horaire">
-                <p>12h-14h30</p>
+                <!-- <p>12h-14h30</p> -->
+                <p>Fermé</p>
               </div>
             </div>
             <div class="item">
@@ -28,7 +30,8 @@
                 <p>Mercredi</p>
               </div>
               <div class="horaire">
-                <p>12h-14h30</p>
+                <!-- <p>12h-14h30</p> -->
+                <p>Fermé</p>
               </div>
             </div>
             <div class="item">
@@ -36,8 +39,9 @@
                 <p>Jeudi</p>
               </div>
               <div class="horaire">
-                <p>12h-14h30</p>
-                <p>19h-00h00</p>
+                <!-- <p>12h-14h30</p>
+                <p>19h-00h00</p> -->
+                <p>Fermé</p>
               </div>
             </div>
             <div class="item">
@@ -45,8 +49,9 @@
                 <p>Vendredi</p>
               </div>
               <div class="horaire">
-                <p>12h-14h30</p>
-                <p>19h-00h00</p>
+               <!-- <p>12h-14h30</p>
+                <p>19h-00h00</p> -->
+                <p>Fermé</p>
               </div>
             </div>
             <div class="item">
@@ -54,8 +59,9 @@
                 <p>Samedi</p>
               </div>
               <div class="horaire">
-                <p>12h-14h30</p>
-                <p>19h-00h00</p>
+                <!-- <p>12h-14h30</p>
+                <p>19h-00h00</p> -->
+                <p>Fermé</p>
               </div>
             </div>
             <div class="item">

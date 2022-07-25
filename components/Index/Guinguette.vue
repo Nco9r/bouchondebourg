@@ -67,10 +67,10 @@ export default {}
 
 <style scoped>
 .guinguette {
-  background-image: url('~assets/img/png/guinguette.png');
+  background-image: url('~assets/img/png/g_n.jpg');
 
   margin-top: 270px;
-  background-position: 50% -30%;
+  background-position: 40% 0%;
   background-size: cover;
   overflow: hidden;
 

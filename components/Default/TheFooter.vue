@@ -99,7 +99,7 @@
       <div class="copyright">
         <div class="left">
           <p>contact@lebouchondebourg.com</p>
-          <p>05 57 94 80 25</p>
+          <p>05 57 94 02 37</p>
           <p>Mentions légales</p>
         </div>
         <div class="sociaux">

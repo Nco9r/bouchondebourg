@@ -5,7 +5,7 @@
         <div class="border"></div>
         <img src="~assets/img/svg/vignes.svg" alt="" />
         <!-- <h4>Le bouchon est ouvert du mardi au samedi</h4> -->
-        <h4>Le bouchon est fermé temporairement</h4>
+        <h4>Réouverture le 19 octobre 2022 à 19h</h4>
         <div class="box_horaire">
           <div class="box_item">
             <div class="item">
@@ -99,7 +99,7 @@
       <div class="copyright">
         <div class="left">
           <p>contact@lebouchondebourg.com</p>
-          <p>05 57 94 02 37</p>
+          <p> 05 57 94 02 37</p>
           <p>Mentions légales</p>
         </div>
         <div class="sociaux">

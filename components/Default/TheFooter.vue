@@ -21,7 +21,7 @@
                 <p>Mardi</p>
               </div>
               <div class="horaire">
-                <p>12h-14h30h</p>
+                <p>12h-14h30</p>
                 <p>19h-00h</p>
               </div>
             </div>
@@ -30,7 +30,7 @@
                 <p>Mercredi</p>
               </div>
               <div class="horaire">
-                <p>12h-14h30h</p>
+                <p>12h-14h30</p>
                 <p>19h-00h</p>
               </div>
             </div>
@@ -39,7 +39,7 @@
                 <p>Jeudi</p>
               </div>
               <div class="horaire">
-                <p>12h-14h30h</p>
+                <p>12h-14h30</p>
                 <p>19h-00h</p>
               </div>
             </div>
@@ -48,7 +48,7 @@
                 <p>Vendredi</p>
               </div>
               <div class="horaire">
-                <p>12h-14h30h</p>
+                <p>12h-14h30</p>
                 <p>19h-00h</p>
               </div>
             </div>
@@ -57,7 +57,7 @@
                 <p>Samedi</p>
               </div>
               <div class="horaire">
-                <p>12h-14h30h</p>
+                <p>12h-14h30</p>
                 <p>19h-00h</p>
               </div>
             </div>

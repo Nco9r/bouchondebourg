@@ -2,7 +2,11 @@
   <div>
     <div class="wrapper_hero">
       <div class="hero_img">
-        <client-only>
+        
+        <video autoplay loop muted playsinline>
+          <source src="~assets/video/v.mp4" type="video/mp4" />
+        </video>
+        <!-- <client-only>
           <vue-tiny-slider v-bind="tinySliderOptions" ref="tinySlider">
             <img src="~assets/img/png/hero_new.jpg" alt="" />
             <img src="~assets/img/png/hero_2.jpg" alt="" />
@@ -12,7 +16,7 @@
 
             <img src="~assets/img/png/slide_5.jpg" alt="" />
           </vue-tiny-slider>
-        </client-only>
+        </client-only> -->
         <!-- <img src="~assets/img/png/slider.jpg" alt="" /> -->
 
         <div class="bck"></div>
@@ -28,7 +32,6 @@
           </h1>
           <div class="btn_resa">
             <a href="/carte_bouchon.pdf" target="_blank">
-              
               <button>Voir la carte</button>
             </a>
           </div>
@@ -43,7 +46,13 @@
 </template>
 
 <script>
+import VideoPlayer from 'nuxt-video-player'
+
+require('nuxt-video-player/src/assets/css/main.css')
 export default {
+  components: {
+    VideoPlayer,
+  },
   data() {
     return {
       tinySliderOptions: {
@@ -79,13 +88,15 @@ export default {
 .hero_img {
   position: relative;
   display: block;
+  overflow-x: hidden;
   height: 100vh !important;
 }
 
-.hero_img img {
-  width: 100%;
+.hero_img video {
+  width: 133%;
   height: 100vh;
   display: block;
+  z-index: 101;
   object-fit: cover;
 }
 
@@ -149,7 +160,7 @@ h1 {
 
 .span_first {
   color: var(--white);
-    font-family: Fjalla, sans-serif;
+  font-family: Fjalla, sans-serif;
   font-size: 52px;
   margin-top: 30px;
   z-index: 1;

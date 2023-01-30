@@ -45,7 +45,7 @@ html {
   --filter-slider: linear-gradient(
     180deg,
     rgba(33, 53, 38, 0) 0%,
-    rgba(33, 53, 38, 0.6) 100%
+    rgba(33, 53, 38, 0.3) 100%
   );
 }
 

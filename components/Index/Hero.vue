@@ -2,22 +2,23 @@
   <div>
     <div class="wrapper_hero">
       <div class="hero_img">
-        
+
         <video autoplay loop muted playsinline>
           <source src="~assets/video/v.mp4" type="video/mp4" />
         </video>
-        <!-- <client-only>
+        <div class="block_slide">
+        <client-only>
           <vue-tiny-slider v-bind="tinySliderOptions" ref="tinySlider">
             <img src="~assets/img/png/hero_new.jpg" alt="" />
             <img src="~assets/img/png/hero_2.jpg" alt="" />
             <img src="~assets/img/png/hero_3.jpg" alt="" />
             <img src="~assets/img/png/slide_2.jpg" alt="" />
             <img src="~assets/img/png/slide_3.jpg" alt="" />
-
             <img src="~assets/img/png/slide_5.jpg" alt="" />
           </vue-tiny-slider>
-        </client-only> -->
-        <!-- <img src="~assets/img/png/slider.jpg" alt="" /> -->
+        </client-only>
+      </div>
+     
 
         <div class="bck"></div>
         <div class="wrapper_title_hero">
@@ -25,9 +26,7 @@
           <p class="construction"></p>
           <h1>
             <span class="span_first">Restaurant</span> <br />
-            <span class="span_second">&</span> <br /><span class="span_three"
-              >Bar à vin</span
-            >
+            <span class="span_second">&</span> <br /><span class="span_three">Bar à vin</span>
             <span class="span_none">Côtes de Bourg</span> <br />
           </h1>
           <div class="btn_resa">
@@ -230,9 +229,11 @@ h1 {
   0% {
     transform: translateY(0);
   }
+
   50% {
     transform: translateY(20px);
   }
+
   100% {
     transform: translateY(0);
   }
@@ -244,14 +245,30 @@ h1 {
   margin-bottom: 30px;
   margin-top: 10px;
 }
+.hero_img .block_slide {
+    display: none;
+  }
 
 @media screen and (min-width: 1024px) {
   .wrapper_title_hero {
     top: 20vh;
   }
-
-  .bck {
+  .hero_img .block_slide {
+    display: block;
   }
+
+  .hero_img video {
+    display: none;
+  }
+
+  .hero_img img {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    object-fit: cover;
+  }
+
+  .bck {}
 
   .span_first {
     font-size: 72px;
@@ -287,8 +304,7 @@ h1 {
     top: 20vh;
   }
 
-  .bck {
-  }
+  .bck {}
 
   .span_first {
     font-size: 102px;
@@ -324,8 +340,7 @@ h1 {
     top: 25vh;
   }
 
-  .bck {
-  }
+  .bck {}
 
   .span_first {
     font-size: 102px;

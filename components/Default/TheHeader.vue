@@ -1,6 +1,6 @@
 <template>
   <header>
-    <div class="box_header_mobile">
+    <div class="box_header_mobile" :class="{ color_bck: scrollPosition > 20 }">
       <div class="logo_header">
         <img src="~assets/img/svg/logo.svg" alt="logo le bouchon de bourg" />
       </div>
@@ -17,12 +17,26 @@
 </template>
 
 <script>
-export default {}
+export default {
+  data() {
+    return {
+      scrollPosition: null,
+    }
+  },
+  methods: {
+    updateScroll() {
+      this.scrollPosition = window.scrollY
+    },
+  },
+  mounted() {
+    window.addEventListener('scroll', this.updateScroll)
+  },
+}
 </script>
 
 <style scoped>
 .box_header_mobile {
-  background-color: var(--primary);
+  background-color: transparent;
   height: 90px;
   position: fixed;
   top: 0;
@@ -35,6 +49,12 @@ export default {}
   z-index: 10;
   padding: 20px;
   right: 0;
+  transition: all .3s ease-in-out ;
+}
+
+.color_bck {
+  background-color: var(--primary);
+
 }
 
 .logo_header {
@@ -42,7 +62,7 @@ export default {}
 }
 
 .logo_header img {
-  width: 100%;
+  width: 180px;
 }
 .btn_resa {
   margin-top: -10px;
@@ -57,9 +77,8 @@ export default {}
     padding: 30px;
   }
 
-
-.logo_header img {
-  width: 250px;
-}
+  .logo_header img {
+    width: 200px;
+  }
 }
 </style>

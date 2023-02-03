@@ -2,23 +2,21 @@
   <div>
     <div class="wrapper_hero">
       <div class="hero_img">
-
         <video autoplay loop muted playsinline>
           <source src="~assets/video/v.mp4" type="video/mp4" />
         </video>
         <div class="block_slide">
-        <client-only>
-          <vue-tiny-slider v-bind="tinySliderOptions" ref="tinySlider">
-            <img src="~assets/img/png/hero_new.jpg" alt="" />
-            <img src="~assets/img/png/hero_2.jpg" alt="" />
-            <img src="~assets/img/png/hero_3.jpg" alt="" />
-            <img src="~assets/img/png/slide_2.jpg" alt="" />
-            <img src="~assets/img/png/slide_3.jpg" alt="" />
-            <img src="~assets/img/png/slide_5.jpg" alt="" />
-          </vue-tiny-slider>
-        </client-only>
-      </div>
-     
+          <client-only>
+            <vue-tiny-slider v-bind="tinySliderOptions" ref="tinySlider">
+              <img src="~assets/img/png/hero_new_3.jpg" alt="" />
+              <img src="~assets/img/png/hero_new_1.jpg" alt="" />
+              <img src="~assets/img/png/hero_new_5.jpg" alt="" />
+              <img src="~assets/img/png/hero_new_2.jpg" alt="" />
+              <img src="~assets/img/png/hero_new_6.jpg" alt="" />
+              <img src="~assets/img/png/hero_new_4.jpg" alt="" />
+            </vue-tiny-slider>
+          </client-only>
+        </div>
 
         <div class="bck"></div>
         <div class="wrapper_title_hero">
@@ -26,7 +24,9 @@
           <p class="construction"></p>
           <h1>
             <span class="span_first">Restaurant</span> <br />
-            <span class="span_second">&</span> <br /><span class="span_three">Bar à vin</span>
+            <span class="span_second">&</span> <br /><span class="span_three"
+              >Bar à vin</span
+            >
             <span class="span_none">Côtes de Bourg</span> <br />
           </h1>
           <div class="btn_resa">
@@ -246,8 +246,8 @@ h1 {
   margin-top: 10px;
 }
 .hero_img .block_slide {
-    display: none;
-  }
+  display: none;
+}
 
 @media screen and (min-width: 1024px) {
   .wrapper_title_hero {
@@ -268,7 +268,8 @@ h1 {
     object-fit: cover;
   }
 
-  .bck {}
+  .bck {
+  }
 
   .span_first {
     font-size: 72px;
@@ -304,7 +305,8 @@ h1 {
     top: 20vh;
   }
 
-  .bck {}
+  .bck {
+  }
 
   .span_first {
     font-size: 102px;
@@ -340,7 +342,8 @@ h1 {
     top: 25vh;
   }
 
-  .bck {}
+  .bck {
+  }
 
   .span_first {
     font-size: 102px;

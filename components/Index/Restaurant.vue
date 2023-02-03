@@ -36,7 +36,7 @@
         <div class="wrapper_left">
           <div class="box_img">
             <img src="~assets/img/svg/bottles.svg" alt="" />
-            <img src="~assets/img/png/slide_5.jpg" alt="" />
+            <img src="~assets/img/png/plat_1.jpg" alt="" />
           </div>
           <div class="djset">
             <p>

@@ -2,7 +2,7 @@
   <div>
     <div class="wrapper_hero">
       <div class="hero_img">
-        <video autoplay loop muted playsinline>
+        <video autoplay loop muted>
           <source src="~assets/video/v.mp4" type="video/mp4" />
         </video>
         <div class="block_slide">

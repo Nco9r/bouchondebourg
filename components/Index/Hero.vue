@@ -2,9 +2,7 @@
   <div>
     <div class="wrapper_hero">
       <div class="hero_img">
-        <video autoplay loop muted>
-          <source src="~assets/video/v.mp4" type="video/mp4" />
-        </video>
+      
         <div class="block_slide">
           <client-only>
             <vue-tiny-slider v-bind="tinySliderOptions" ref="tinySlider">
@@ -91,11 +89,10 @@ export default {
   height: 100vh !important;
 }
 
-.hero_img video {
-  width: 133%;
+.hero_img img {
+  width: 100%;
   height: 100vh;
   display: block;
-  z-index: 101;
   object-fit: cover;
 }
 
@@ -245,9 +242,7 @@ h1 {
   margin-bottom: 30px;
   margin-top: 10px;
 }
-.hero_img .block_slide {
-  display: none;
-}
+
 
 @media screen and (min-width: 1024px) {
   .wrapper_title_hero {

@@ -22,7 +22,7 @@
               </div>
               <div class="horaire">
                 <p>12h-14h30</p>
-                <p>Fermé</p>
+                <p></p>
               </div>
             </div>
             <div class="item">
